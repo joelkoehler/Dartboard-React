@@ -19,9 +19,7 @@ road trip destination for you.
 - Google Street View
 - User location
 
-## Technologies Used
-
-# Stretch goals
+## Stretch goals
 
 - Option to have Dartboard select a random point of interest nearby using the Google Places API. 
 - Option to choose a location on the map instead of using the user's location
