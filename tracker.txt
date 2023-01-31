@@ -1,0 +1,44 @@
+Ideas:
+//zoom/animation from landing to mapview
+- reset/center location
+- choose a location on the map as your location
+- google places API to find points of interest nearby
+- landing page additions, explaining functionality
+    OR
+- guided flow on initial mapview load (cookies) - centered white slider div? black arrow overlay?
+- tap a pin to send via SMS, email, QR code to open maps on phone
+- history tab?
+- quick copy for coordinates
+- "remove oceans" option
+
+
+Known bugs:
+- [UI...minor] options panel arrow is disconnected 
+- [UI...minor] gear button doesn't "bob" onclick for mobile
+- [UI...minor] "pin" jumps when info pressed
+- [medium] out-of-bounds return values coming from locGenerator...which causes the pin card to not update (which is good i guess)
+- OPTIONS FREAK TF OUT (has to do with tooltip boundary i think)
+
+
+MVP features todo:
+- UI finishes
+- (optional) info button
+
+
+TECHNOLOGIES USED:
+- React
+- QR code generation (qrcode.react) 
+- Google Maps API (google-map-react)
+- Google Street View
+- User location
+
+
+DESCRIPTION:
+Dartboard is a web app built in React, intended to spark adventure and inspire movement.
+When the user "throws a dart" at the map, Darboard randomly drops a pin within a set distance 
+of their current location. A QR code is generated to begin navigation to the pin when scanned with a mobile device,
+or links to Google Maps and Street View are available if already on mobile (or simply to 
+check the spot out in more detail).
+
+Looking for a new skate spot or photography challenge? Have the urge to go on a run or take a spontaneous road trip? 
+Dartboard has you covered.
