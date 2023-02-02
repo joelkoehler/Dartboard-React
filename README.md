@@ -1,5 +1,7 @@
 # Dartboard
 
+Live demo here: https://dartboard-react.herokuapp.com/
+
 ## Description
 
 Dartboard is a web app built in React, intended to spark adventure and inspire movement.
