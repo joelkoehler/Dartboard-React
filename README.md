@@ -1,5 +1,6 @@
 # Dartboard
 
+⚠️ Due to the limitations the free tier of Google's Maps API, all custom map styling has been disabled. 
 Live demo here: https://dartboard-react.herokuapp.com/
 
 ## Description
